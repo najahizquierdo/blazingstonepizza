@@ -33,9 +33,13 @@
   float: left;
 }
 
+body {
+  background-image: url('./wood.jpg')
+}
+
 .icons {
   top: 5%;
-  width: 250px;
+  width: 200px;
 }
 
 .nav-item {

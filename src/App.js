@@ -8,6 +8,7 @@ import Menu from './MenuComponent'
 import {BrowserRouter, Route, Router} from 'react-router-dom';
 import Contact from './ContactComponent.js'
 import { StickyContainer, Sticky } from 'react-sticky'
+import Homepage from './Homepage.js'
 
 class App extends Component {
   render() {
@@ -15,13 +16,15 @@ class App extends Component {
 
       <div className="App">
 
-        <header className="App-header red accent-4">
+        <header className="App-header deep-orange darken-4">
           <div className="row about-me">
           <Sidebar />
           <NavBar />
           </div>
         </header>
-
+        <div className="page">
+        <Homepage />
+      </div>
         <div id="Menu" className="page">
           <Menu />
         </div>

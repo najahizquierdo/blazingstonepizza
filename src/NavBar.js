@@ -7,7 +7,7 @@ export default class NavBar extends Component {
       return(
         <div>
         <Scrollspy items={ ['menu-item', 'contact'] } currentClassName="is-current">
-        <Navbar className="navBar nav-wrapper button-collapse">
+        <Navbar className="navBar nav-wrapper button-collapse deep-orange accent-3">
           <a id="menu-item" className="nav-item" href="#Menu">
             MENU
           </a>

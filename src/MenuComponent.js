@@ -6,7 +6,7 @@ export default class Menu extends Component {
   render() {
       return(
         <div>
-          <img src={menupic} width="1100" />
+          bye
         </div>
 
       );

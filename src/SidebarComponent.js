@@ -7,10 +7,10 @@ class Sidebar extends Component {
   render() {
     return(
 <div className="col s10 m4 l3">
-       <div className="card-panel orange lighten-5">
+       <div className="card-panel grey">
          <div className="pictures">
            <center>
-            <img src={logo} /><p>
+            <img src={logo} className="icons"/><p>
             <img src={socialmedia} className="icons" usemap="#image-map" />
 
           <map name="image-map">
@@ -26,9 +26,9 @@ class Sidebar extends Component {
           (323)309-6527
             </center>
 
-            <p> <h3>Yelpers Love us! </h3></p>
+            <p>
             <YelpReviews />
-
+          </p>
           </div>
         </div>
       </div>
