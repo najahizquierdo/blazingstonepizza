@@ -31,15 +31,17 @@
 .about-me {
   width: 100%;
   float: left;
+
 }
 
 body {
-  background-image: url('./wood.jpg')
+  background-image: url('./wood.jpg');
+  width: 100%;
 }
 
 .icons {
   top: 5%;
-  width: 200px;
+  width: 50%;
 }
 
 .nav-item {
