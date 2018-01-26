@@ -16,7 +16,7 @@ export default class NavBar extends Component {
           </a>
 
           <a className="nav-item" href="https://blazingstonepizza.revelup.com/weborder/?establishment=1#index">
-              ORDER ONLINE
+              ORDER
           </a>
     </Navbar>
    </Scrollspy>
