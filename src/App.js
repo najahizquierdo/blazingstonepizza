@@ -28,7 +28,7 @@ class App extends Component {
         <div id="Menu" className="page">
           <Menu />
         </div>
-        <div id="Contact">
+        <div id="Contact" className="page">
           <Contact />
         </div>
       </div>

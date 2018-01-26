@@ -5,7 +5,7 @@ import menupic from './full-menu.jpg'
 export default class Menu extends Component {
   render() {
       return(
-        <div>
+        <div className="page">
           bye
         </div>
 
