@@ -47,6 +47,17 @@ body {
   margin-left: 15%;
   height: 100vh;
 }
+
+.menu {
+  width: 90%;
+  margin-top: -8px;
+
+}
+
+.scroll {
+  overflow: scroll;
+  height: 800px;
+}
 .about-me {
   width: 80%;
   float: left;

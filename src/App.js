@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Sidebar from './SidebarComponent.js'
 import { Button, Card, row, col } from 'react-materialize';
 import NavBar from './NavBar.js'
