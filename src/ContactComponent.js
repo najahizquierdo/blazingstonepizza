@@ -7,7 +7,6 @@ export default class Contact extends Component {
   render() {
       return(
         <div className="page">
-          <MapContainer />
           <div className="contact-info-pad">
           <div className="contact-info">
           <h3> 3501 Monterey Rd
@@ -35,17 +34,16 @@ export default class Contact extends Component {
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>
-
-
-</div>
-
-
-        </p></div>
+  </div>
+</p></div>
       </li>
     </ul>
-  </div>
     </div>
-        </div>
+  </div>
+  <p>
+    <MapContainer />
+  </p>
+</div>
       );
   }
 }
