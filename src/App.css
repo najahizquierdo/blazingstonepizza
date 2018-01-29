@@ -98,12 +98,12 @@ body {
 
 .map {
   float:left;
-  width: 850px;
+  width: 600px;
   height: 700px;
 }
 
 .contact-info {
-  width: 40%;
+  width: 30%;
   float:right;
   background-color: #b71c1c;
   color: white;
