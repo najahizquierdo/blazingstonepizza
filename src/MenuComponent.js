@@ -11,10 +11,10 @@ export default class Menu extends Component {
   render() {
       return(
         <div className="page">
-        <div className="menu-box">
-         <img src={menu1} className="menu" />
-         <img src={menu2} className="menu" />
-       </div>
+          <h1> MENU </h1>
+
+          <img src={menu1} />
+         <img src={menu2} />
        </div>
       );
   }

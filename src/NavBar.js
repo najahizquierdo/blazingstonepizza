@@ -8,10 +8,13 @@ export default class NavBar extends Component {
         <div>
         <Scrollspy items={ ['menu-item', 'contact'] } currentClassName="is-current">
         <Navbar className="navBar nav-wrapper button-collapse deep-orange accent-3">
-          <a id="menu-item" className="nav-item" href="#Menu">
+          <a id="home-item" className="nav-item" href="/">
+            HOME
+          </a>
+          <a id="menu-item" className="nav-item" href="/menu">
             MENU
           </a>
-          <a id="contact-item" className="nav-item" href="#Contact">
+          <a id="contact-item" className="nav-item" href="/contact">
           CONTACT
           </a>
 

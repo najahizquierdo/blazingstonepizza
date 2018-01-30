@@ -10,9 +10,7 @@ import YelpReviews from './YelpReviews.js'
 class Sidebar extends Component {
   render() {
     return(
-<div className="col s8 m4 l3">
        <div className="card-panel grey lighten-1">
-         <div className="pictures">
            <center>
             <img src={logo} className="logo"/><p>
 
@@ -39,8 +37,6 @@ class Sidebar extends Component {
             <YelpReviews />
           </p>
           </div>
-        </div>
-      </div>
     );
   }
 }

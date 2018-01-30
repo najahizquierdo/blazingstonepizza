@@ -9,28 +9,26 @@ import Contact from './ContactComponent.js'
 import { StickyContainer, Sticky } from 'react-sticky'
 import Homepage from './Homepage.js'
 
+
 class App extends Component {
   render() {
     return (
+      <BrowserRouter>
 
       <div className="App">
-
         <header className="App-header deep-orange darken-4">
           <div className="row about-me">
-          <Sidebar />
           <NavBar />
           </div>
+          <div className="floated_div">
+            <Sidebar />
+          </div>
         </header>
-        <div className="page">
-        <Homepage />
+        <Route exact path='/' component={Homepage}/>
+        <Route path='/menu' component={Menu}/>
+        <Route path='/contact' component={Contact}/>
       </div>
-        <div id="Menu" className="page">
-          <Menu />
-        </div>
-        <div id="Contact" className="page">
-          <Contact />
-        </div>
-      </div>
+    </BrowserRouter>
 
 
     );
