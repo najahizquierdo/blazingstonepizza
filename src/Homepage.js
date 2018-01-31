@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col } from 'react-materialize';
-
+import $ from 'jquery';
+import { Carousel } from 'react-responsive-carousel';
 
 class Homepage extends Component {
   render() {
     return(
-      <div>
-        his
-      </div>
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1" /></a>
+            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2" /></a>
+            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3" /></a>
+            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4" /></a>
+          </div>
 
     );
   }

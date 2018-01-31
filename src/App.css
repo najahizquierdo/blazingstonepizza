@@ -5,7 +5,7 @@
 
 .App-header {
   background-color: #222;
-  height: 10%;
+  height: 45%;
   padding: 20px;
   position: fixed;
   top: 0;
@@ -17,10 +17,11 @@
 }
 
 
+
 body {
   background-image: url('./wood.jpg');
   width: 100%;
-  font-size: 50%;
+  font-size: 80%;
   font-family: 'Montserrat';
 }
 
@@ -61,12 +62,12 @@ body {
   height: 800px;
 }
 .about-me {
-  width: 70%;
+  width: 85%;
   float: left;
 }
 
 .floated_div {
-  width:15%;
+  width:20%;
 }
 @media all and (max-width: 20%;) {
 .floated_div { display: none; }
@@ -132,6 +133,12 @@ h5{
     margin: .5rem 0 1rem 0;
 }
 
+.card-panel {
+    transition: box-shadow .25s;
+    margin: .5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
 
 .container {
 	width:100%;

@@ -24,7 +24,8 @@ class App extends Component {
             <Sidebar />
           </div>
         </header>
-        <Route exact path='/' component={Homepage}/>
+
+        <Route path='/' component={Homepage}/>
         <Route path='/menu' component={Menu}/>
         <Route path='/contact' component={Contact}/>
       </div>
