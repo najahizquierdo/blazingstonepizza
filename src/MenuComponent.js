@@ -13,8 +13,8 @@ export default class Menu extends Component {
         <div className="page">
           <h1> MENU </h1>
 
-          <img src={menu1} />
-         <img src={menu2} />
+          <img src={menu1} className="menu" />
+         <img src={menu2} className="menu"/>
        </div>
       );
   }
