@@ -5,7 +5,7 @@
 
 .App-header {
   background-color: #222;
-  height: 20%;
+  height: 17%;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,6 +13,12 @@
   background-color: #FFF;
   z-index: 99;
 
+}
+
+@media (max-width: 767px) {
+  .App-header {
+    height:10%;
+  }
 }
 
 
@@ -47,6 +53,11 @@ body {
   margin-top: 10%;
   margin-left: 15%;
   padding-top: 1%;
+}
+@media (max-width: 767px) {
+  .page {
+    margin-top: 20%;
+  }
 }
 
 
@@ -114,7 +125,6 @@ body {
 h1 {
   margin-right: 50%;
   font-weight: 700;
-  margin-top: 5%;
 }
 
 h4{
