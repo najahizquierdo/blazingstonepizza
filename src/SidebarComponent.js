@@ -11,6 +11,7 @@ class Sidebar extends Component {
   render() {
     return(
        <div className="card-panel grey lighten-1">
+
            <center>
             <img src={logo} className="logo"/><p>
 
@@ -30,13 +31,9 @@ class Sidebar extends Component {
           <img src={youtube} className="icons"/>
         </a>
         </p>
-</p>
-</center>
-
-            <p>
-            <YelpReviews />
-          </p>
-          </div>
+      </p>
+  </center>
+  </div>
     );
   }
 }

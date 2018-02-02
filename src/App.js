@@ -17,7 +17,7 @@ class App extends Component {
 
       <div className="App">
         <header className="App-header deep-orange darken-4">
-          <div className="row about-me ">
+          <div className="row about-me">
             <NavBar />
           </div>
           <div className="floated_div hidden-xs">

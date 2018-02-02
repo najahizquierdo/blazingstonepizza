@@ -67,6 +67,7 @@ body {
 
 .floated_div {
   width:20%;
+  height:100%;
 }
 
 @media (max-width: 767px) {
@@ -81,6 +82,7 @@ body {
 }
 
 .logo {
+  margin-top: -60%;
   width:80%
 }
 
@@ -107,11 +109,12 @@ body {
 
 .map {
   width: 100%;
-  height: 700px;
+  height: 500px;
 }
 h1 {
   margin-right: 50%;
   font-weight: 700;
+  margin-top: 5%;
 }
 
 h4{
