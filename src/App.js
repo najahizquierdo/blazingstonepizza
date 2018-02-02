@@ -16,14 +16,14 @@ class App extends Component {
       <BrowserRouter>
 
       <div className="App">
-        <header className="App-header deep-orange darken-4">
+        <header className="App-header deep-orange darken-4 hidden-xs">
+        </header>
           <div className="row about-me">
           <NavBar />
           </div>
-          <div className="floated_div">
+          <div className="floated_div hidden-xs">
             <Sidebar />
           </div>
-        </header>
 
         <Route path='/' component={Homepage}/>
         <Route path='/menu' component={Menu}/>

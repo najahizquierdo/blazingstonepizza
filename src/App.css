@@ -5,7 +5,7 @@
 
 .App-header {
   background-color: #222;
-  height: 15%;
+  height: 20%;
   padding: 20px;
   position: fixed;
   top: 0;
@@ -69,8 +69,11 @@ body {
 .floated_div {
   width:20%;
 }
-@media all and (max-width: 20%;) {
-.floated_div { display: none; }
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
 }
 
 .icons {
