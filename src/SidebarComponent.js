@@ -24,6 +24,14 @@ class Sidebar extends Component {
 
 
 
+              <h5 className="addy">
+                3501 Monterey Rd
+                <p> Los Angeles, CA 90042 </p>
+              </h5>
+
+              <h6 className="addy1"> (323) 276-3939 </h6>
+
+            </p>
           <p>
         <a href="https://www.facebook.com/blazingstonepizza/">
           <img src={facebook} className="icons"/>
@@ -35,13 +43,6 @@ class Sidebar extends Component {
           <img src={youtube} className="icons"/>
         </a>
         </p>
-        <div className="addy">
-        <h5> 3501 Monterey Rd </h5>
-        <h6> Los Angeles, CA 90042 </h6>
-
-        <h6 className="addy1"> (323) 276-3939 </h6>
-      </div>
-      </p>
   </center>
 
 </div>
