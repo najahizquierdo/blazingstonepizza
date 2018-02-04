@@ -15,11 +15,18 @@
 
 }
 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
 @media (max-width: 767px) {
   .App-header {
     height:10%;
   }
 }
+
+
 .slick-list {
     overflow: hidden;
     margin: 0;
@@ -55,8 +62,8 @@
 
 @media (max-width: 767px){
   .navBar {
-    margin-top: 8%;
-    width: 100%;
+    margin-top: -10%;
+    width: 120%;
     margin-left: 0;
     height: 1%;
   }
@@ -73,7 +80,7 @@
 }
 @media (max-width: 767px) {
   .page {
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 0;
   }
 }

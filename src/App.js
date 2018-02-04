@@ -8,7 +8,7 @@ import {BrowserRouter, Route, Router, Redirect} from 'react-router-dom';
 import Contact from './ContactComponent.js'
 import { StickyContainer, Sticky } from 'react-sticky'
 import Homepage from './Homepage.js'
-
+import logo from './logo.png'
 
 class App extends Component {
   render() {
@@ -17,6 +17,7 @@ class App extends Component {
 
       <div className="App">
         <header className="App-header deep-orange darken-4">
+          <img src={logo} className="App-logo visible-xs" alt="logo" />
           <div className="row about-me">
             <NavBar />
           </div>
