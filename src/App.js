@@ -4,7 +4,7 @@ import { Button, Card, row, col } from 'react-materialize';
 import NavBar from './NavBar.js'
 import './App.css';
 import Menu from './MenuComponent'
-import {BrowserRouter, Route, Router} from 'react-router-dom';
+import {BrowserRouter, Route, Router, Redirect} from 'react-router-dom';
 import Contact from './ContactComponent.js'
 import { StickyContainer, Sticky } from 'react-sticky'
 import Homepage from './Homepage.js'
@@ -24,8 +24,7 @@ class App extends Component {
             <Sidebar />
           </div>
         </header>
-
-        <Route path='/' component={Homepage}/>
+        <Route exact path='/' component={Homepage} />
         <Route path='/menu' component={Menu}/>
         <Route path='/contact' component={Contact}/>
       </div>

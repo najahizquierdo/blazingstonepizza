@@ -5,7 +5,7 @@
 
 .App-header {
   background-color: #222;
-  height: 17%;
+  height: 15%;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,15 +20,19 @@
     height:10%;
   }
 }
-
-
-
-body {
-  background-image: url('./wood.jpg');
-  width: 100%;
-  font-size: 80%;
-  font-family: 'Montserrat';
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
 }
+
+.pictures {
+  height: 60vw;
+  width:85%;
+}
+
 
 
 .nav-item {
@@ -43,7 +47,7 @@ body {
   color: black;
 }
 .navBar {
-  margin-top: 10%;
+  margin-top: 8%;
   width: 100%;
   margin-left: 25%;
   height: 1%;
@@ -54,10 +58,22 @@ body {
   margin-left: 15%;
   padding-top: 1%;
 }
+
+.homepage {
+  margin-top: 15%;
+  margin-left: 40%;
+}
 @media (max-width: 767px) {
   .page {
     margin-top: 20%;
   }
+}
+
+.jumbotron {
+  width: 85%;
+  height: 40%;
+  padding-left: 8%;
+  padding-top: 3%;
 }
 
 
@@ -78,7 +94,7 @@ body {
 
 .floated_div {
   width:20%;
-  height:100%;
+
 }
 
 @media (max-width: 767px) {
@@ -86,31 +102,23 @@ body {
     display: none !important;
   }
 }
-
+.iconcon {
+  width: 15%;
+}
+@media (min-width: 767px) {
+  .visible-xs {
+    display: none !important;
+  }
+}
 .icons {
   padding: 5px;
   width: 30%;
 }
 
 .logo {
-  margin-top: -60%;
   width:80%
 }
 
-.yelp {
-  display: block;
-  max-width: 200%;
-  height: 250px;
-  min-width: 100%;
-  border: 0px;
-  width: 80%;
-}
-.yelp-design {
-
-  line-height: 100%;
-  height: 40px;
-  background-image: url(https://embed.yelpcdn.com/bling_borders?color=C41200&width=200&BGcolor=CCCCCC&position=top&height=40);
-}
 
 .menu-box {
   overflow: scroll;
@@ -122,18 +130,8 @@ body {
   width: 100%;
   height: 500px;
 }
-h1 {
-  margin-right: 50%;
-  font-weight: 700;
-}
 
-h4{
-  font-weight: 900;
-}
 
-h5{
-  font-weight: 600;
-}
 .contact-info {
   width: 80%;
   padding-top: 1%;
@@ -153,6 +151,7 @@ h5{
     margin: .5rem 0 1rem 0;
     border-radius: 2px;
     background-color: #fff;
+    padding-bottom: 400%;
 }
 
 .container {
@@ -160,6 +159,7 @@ h5{
 	margin:0 auto;
 	position:relative;
 }
+
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -252,4 +252,13 @@ fieldset {
 }
 :-ms-input-placeholder {
  color:#888;
+}
+
+
+.addy {
+  padding-top: 20%;
+}
+
+.addy1 {
+  padding-top: 5%;
 }

@@ -5,9 +5,16 @@ import facebook from './facebook.png'
 import youtube from './youtube.png'
 import instagram from './instagram.png'
 
-import socialmedia from './social-media.png'
-import YelpReviews from './YelpReviews.js'
+
+
 class Sidebar extends Component {
+  componentWillMount () {
+       const script = document.createElement("script");
+       script.src = "https://www.yelp.com/embed/widgets.js";
+       script.async = true;
+
+       document.body.appendChild(script);
+   }
   render() {
     return(
        <div className="card-panel grey lighten-1">
@@ -16,9 +23,6 @@ class Sidebar extends Component {
             <img src={logo} className="logo"/><p>
 
 
-          <p> 3501 Monterey Rd </p>
-          <p> Los Angeles, CA 90042 </p>
-          (323)309-6527
 
           <p>
         <a href="https://www.facebook.com/blazingstonepizza/">
@@ -31,9 +35,18 @@ class Sidebar extends Component {
           <img src={youtube} className="icons"/>
         </a>
         </p>
+        <div className="addy">
+        <h5> 3501 Monterey Rd </h5>
+        <h6> Los Angeles, CA 90042 </h6>
+
+        <h6 className="addy1"> (323) 276-3939 </h6>
+      </div>
       </p>
   </center>
-  </div>
+
+</div>
+
+
     );
   }
 }

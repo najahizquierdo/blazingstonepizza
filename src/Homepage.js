@@ -1,18 +1,40 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col } from 'react-materialize';
-import $ from 'jquery';
-import { Carousel } from 'react-responsive-carousel';
+import footballfield from './footballfield.jpg'
+import Slider from 'react-slick'
+import porkys from './porkys.jpeg'
+
 
 class Homepage extends Component {
-  render() {
-    return(
-        <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1" /></a>
-            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2" /></a>
-            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3" /></a>
-            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4" /></a>
-          </div>
 
+  render() {
+    var settings = {
+  dots: true,
+  arrows: true,
+  draggable: true,
+  swipeToSlide: true,
+  speed: 500,
+  adaptiveHeight: true,
+  slidesToShow: 1,
+  style: {
+    height: "40%"
+
+  }
+};
+    return(
+      <div className="page jumbotron">
+        <center>
+        <Slider className="pictures" {...settings}>
+        <div className="pictures">
+          <img src={porkys} />
+          <div className="centered"></div>
+        </div>
+        <div className="pictures">
+          <img src={footballfield} />
+        </div>
+        </Slider>
+      </center>
+      </div>
     );
   }
 }
