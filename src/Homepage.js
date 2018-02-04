@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col } from 'react-materialize';
-import footballfield from './footballfield.jpg'
+import footballfield from './football.png'
 import Slider from 'react-slick'
-import porkys from './porkys.jpeg'
-
+import porkys from './porkys.png'
+import dessert from './dessert.png'
+import car from './car.png'
 
 class Homepage extends Component {
 
@@ -23,17 +24,13 @@ class Homepage extends Component {
 };
     return(
       <div className="page jumbotron">
-        <center>
-        <Slider className="pictures" {...settings}>
-        <div className="pictures">
-          <img src={porkys} />
-          <div className="centered"></div>
-        </div>
-        <div className="pictures">
-          <img src={footballfield} />
-        </div>
-        </Slider>
-      </center>
+          <div><img src={porkys} className="main-announcement"/></div>
+
+            <img src={footballfield} className="bottomthree" />
+            <img src={dessert} className="bottomthree"/>
+            <img src={car} className="bottomthree"/>
+
+
       </div>
     );
   }
