@@ -27,6 +27,11 @@
 }
 
 
+.desktop-homepage {
+  margin-top: 4%;
+  height: 400px;
+}
+
 .slick-list {
     overflow: hidden;
     margin: 0;
@@ -36,8 +41,9 @@
 }
 
 .pictures {
-  height: 60vw;
-  width:85%;
+  height: 500px;
+  width: auto;
+  margin:auto;
 }
 
 
@@ -62,7 +68,7 @@
 
 @media (max-width: 600px){
   .navBar {
-    margin-top: -6%;
+    margin-top: -7%;
     width: 120%;
     margin-left: 0;
     height: 1%;
