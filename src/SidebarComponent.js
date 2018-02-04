@@ -23,6 +23,17 @@ class Sidebar extends Component {
             <img src={logo} className="logo"/><p>
 
 
+              <p>
+                <a href="https://www.facebook.com/blazingstonepizza/">
+                <img src={facebook} className="icons"/>
+              </a>
+              <a href="https://www.instagram.com/blazingstonepizza/">
+              <img src={instagram} className="icons"/>
+            </a>
+            <a href="https://www.youtube.com/user/hugoizquierdo/videos?sort=dd&shelf_id=0&view=0">
+            <img src={youtube} className="icons"/>
+          </a>
+        </p>
 
               <h5 className="addy">
                 3501 Monterey Rd
@@ -32,17 +43,6 @@ class Sidebar extends Component {
               <h6 className="addy1"> (323) 276-3939 </h6>
 
             </p>
-          <p>
-        <a href="https://www.facebook.com/blazingstonepizza/">
-          <img src={facebook} className="icons"/>
-        </a>
-        <a href="https://www.instagram.com/blazingstonepizza/">
-          <img src={instagram} className="icons"/>
-        </a>
-        <a href="https://www.youtube.com/user/hugoizquierdo/videos?sort=dd&shelf_id=0&view=0">
-          <img src={youtube} className="icons"/>
-        </a>
-        </p>
   </center>
 
 </div>
