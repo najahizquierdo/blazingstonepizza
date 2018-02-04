@@ -53,6 +53,14 @@
   height: 1%;
 }
 
+@media (max-width: 767px){
+  .navBar {
+    margin-top: 8%;
+    width: 100%;
+    margin-left: 0;
+    height: 1%;
+  }
+}
 .page {
   margin-top: 10%;
   margin-left: 15%;
@@ -66,6 +74,7 @@
 @media (max-width: 767px) {
   .page {
     margin-top: 20%;
+    margin-left: 0;
   }
 }
 
@@ -76,12 +85,30 @@
   padding-top: 3%;
 }
 
+@media (max-width: 767px) {
+  .jumbotron {
+  padding-left: 0;
+  width:100%;
+  height: 100%;
+
+  }
+}
 .main-announcement {
   width:90%;
 }
 .bottomthree {
   width: 30%;
 }
+
+@media (max-width: 767px) {
+  .main-announcement {
+  width: 100%;
+  }
+  .bottomthree {
+  width: 100%;
+  }
+}
+
 
 .menu {
   width: 90%;
