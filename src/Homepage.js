@@ -24,7 +24,6 @@ class Homepage extends Component {
         <div className="desktop-homepage hidden-xs">
         <Slider {...settings}>
         <div><img src={porkys} className="pictures"/></div>
-        <div><img src={footballfield} className="pictures" /></div>
         <div><img src={lasagna} className="pictures"/></div>
         <div><img src={car} className="pictures"/></div>
         <div><img src={dessert} className="pictures"/></div>
