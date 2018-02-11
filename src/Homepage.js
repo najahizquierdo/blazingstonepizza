@@ -32,7 +32,6 @@ class Homepage extends Component {
 
           <div className="mobile-homepage visible-xs">
             <img src={porkys} className="main-announcement"/>
-            <img src={footballfield} className="bottomthree" />
             <img src={lasagna} className="bottomthree"/>
             <img src={car} className="bottomthree"/>
             <img src={dessert} className="bottomthree"/>
