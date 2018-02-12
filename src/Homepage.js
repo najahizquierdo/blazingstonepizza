@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, Card, Row, Col } from 'react-materialize';
-import footballfield from './football.png'
 import porkys from './porkys.png'
 import dessert from './dessert.png'
 import car from './car.png'
