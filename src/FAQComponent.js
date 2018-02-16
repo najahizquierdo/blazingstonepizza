@@ -11,9 +11,9 @@ export default class faq extends Component {
         <div className="page">
           <h1> FAQ </h1>
         <div className="faq">
-          <ul className="collapsible red accent-4" data-collapsible="accordion">
+          <ul className="collapsible deep-orange darken-4" data-collapsible="accordion">
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6> Do you have vegan pizza? </h6>
               </div>
               <div className="collapsible-body red darken-4">
@@ -23,7 +23,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6>Do you have vegetarian pizza?</h6>
               </div>
               <div className="collapsible-body red darken-4">
@@ -33,7 +33,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6> Do you have gluten free dough? </h6>
               </div>
               <div className="collapsible-body red darken-4">
@@ -43,7 +43,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6> Do you have family specials? </h6>
               </div>
               <div className="collapsible-body red darken-4">
@@ -53,7 +53,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6> Can I order in advance? </h6>
               </div>
               <div className="collapsible-body red darken-4">
@@ -63,7 +63,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6> Problem with your call? </h6>
               </div>
               <div className="collapsible-body red darken-4">
@@ -74,7 +74,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
                 <h6>  Why is my delivery taking so long? </h6>               </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -83,7 +83,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6>  How spicy is the Blazing Sauce?</h6>               </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -92,7 +92,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6>  Do all your pizzas come with tomato sauce?</h6>               </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -101,7 +101,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6>  Does your pesto have any nuts or cheese?</h6>               </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -110,7 +110,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6>  What is your delivery area?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -119,7 +119,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6>  How long does a pizza take to make?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -128,7 +128,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6>  How are your wings made/served? </h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -137,7 +137,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6> Can I do half-and-half pizzas?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -146,7 +146,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6> What is a Calzone?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -155,7 +155,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6> Can I substitute ingredients on your specialty pizzas?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -164,7 +164,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6> What discounts can you offer?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
@@ -173,7 +173,7 @@ export default class faq extends Component {
               </div>
             </li>
             <li>
-              <div className="collapsible-header red accent-4">
+              <div className="collapsible-header deep-orange darken-4">
               <h6> What size pizzas do you have, and how many slices are in each?</h6> </div>
               <div className="collapsible-body red darken-4">
                 <div class="container">
