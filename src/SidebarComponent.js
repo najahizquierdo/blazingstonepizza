@@ -40,7 +40,7 @@ class Sidebar extends Component {
                 <p> Los Angeles, CA 90042 </p>
               </h5>
 
-              <h6 className="addy1"> (323) 276-3939 </h6>
+              <text className="addy1"> (323) 276-3939 </text>
 
             </p>
   </center>
