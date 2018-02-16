@@ -50,7 +50,7 @@
 
 .nav-item {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   height: 100%;
   vertical-align: middle;
   font-size: 80%;
@@ -184,6 +184,14 @@
   padding-top: 1%;
   background-image: url('./parsley.jpg');
   color: white;
+}
+
+.faq {
+  width: 85%;
+  padding-top: 1%;
+  background-image: url('./parsley.jpg');
+  color: white;
+  margin-left: 10%;
 }
 
 .collapsible {

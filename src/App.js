@@ -9,6 +9,7 @@ import Contact from './ContactComponent.js'
 import { StickyContainer, Sticky } from 'react-sticky'
 import Homepage from './Homepage.js'
 import logo from './logo.png'
+import faq from './FAQComponent.js'
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
         <Route exact path='/' component={Homepage} />
         <Route path='/menu' component={Menu}/>
         <Route path='/contact' component={Contact}/>
+        <Route path='/faq' component={faq} />
       </div>
     </BrowserRouter>
 
