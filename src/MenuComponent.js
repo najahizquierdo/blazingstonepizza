@@ -5,6 +5,7 @@ import menu2 from './menu-2.png'
 import { Scrollbars } from 'react-custom-scrollbars';
 import Collapsible from 'react-collapsible';
 import $ from 'jquery'
+import CrustContainer from './CrustContainer'
 
 
 export default class Menu extends Component {
@@ -12,7 +13,7 @@ export default class Menu extends Component {
       return(
         <div className="page">
           <h1> MENU </h1>
-
+          <CrustContainer />
           <img src={menu1} className="menu" />
          <img src={menu2} className="menu"/>
        </div>
