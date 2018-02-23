@@ -22,7 +22,7 @@ export default class CrustContainer extends Component {
           <iframe
             src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0&amp;showinfo=0"
             frameborder="0"
-            className="menu"
+            className="menu-video"
             allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
         </div>

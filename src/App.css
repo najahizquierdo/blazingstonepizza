@@ -54,6 +54,10 @@
   height: 550px;
   width: 800px;
 }
+.menu-video {
+  width: 90%;
+  height: auto;
+}
 
 .mobile-video {
   width: 100%;
@@ -89,7 +93,18 @@
 .crust-button {
   position: fixed;
   margin-top: 1%;
-  margin-left: 20%;
+  margin-left: 25%;
+  float: right;
+}
+
+
+@media (max-width: 760px) {
+.crust-button{
+  position: fixed;
+  margin-top: 1%;
+  float: right;
+  margin-left: 9%;
+  }
 }
 
 .page {
