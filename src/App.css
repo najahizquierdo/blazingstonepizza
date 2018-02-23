@@ -45,12 +45,20 @@
 }
 
 .pictures {
-  height: 550px;
-  width: auto;
+  height: 500px;
+  width: 90%;
   margin:auto;
 }
 
+.video {
+  height: 550px;
+  width: 800px;
+}
 
+.mobile-video {
+  width: 100%;
+  height: 250px;
+}
 
 .nav-item {
   display: inline-block;
