@@ -26,7 +26,7 @@ export default class CrustContainer extends Component {
             allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
         </div>
-        <img onClick={this.hide.bind(this)} style={{position: 'fixed', margintop: '15%', marginBottom: '1%', marginLeft: '23%'}} src={button}/>
+        <img onClick={this.hide.bind(this)} className="crust-button" src={button}/>
       </div>
     );
   }
