@@ -12,6 +12,7 @@ class Homepage extends Component {
   render() {
     var settings = {
   dots: true,
+
   arrows: true,
   draggable: true,
   swipeToSlide: true,
@@ -26,7 +27,7 @@ class Homepage extends Component {
         <Slider {...settings}>
         <div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTrNcOf6Iwhk6uKgVGV-Y8VFnTr8xXbai5hqiajqKUTSwG3g/viewform?usp=sf_link"><img src={krav} className="pictures"/></a></div>
         <div>
-          <iframe className="video" src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+          <iframe className="pictures" src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe></div>
         <div><img src={porkys} className="pictures"/></div>
         <div><img src={lasagna} className="pictures"/></div>
