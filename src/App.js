@@ -10,6 +10,7 @@ import { StickyContainer, Sticky } from 'react-sticky'
 import Homepage from './Homepage.js'
 import logo from './logo.png'
 import faq from './FAQComponent.js'
+import order from './OrderOnline.js'
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
         <Route path='/menu' component={Menu}/>
         <Route path='/contact' component={Contact}/>
         <Route path='/faq' component={faq} />
+        <Route path='/orderonline' component={order} />
       </div>
     </BrowserRouter>
 

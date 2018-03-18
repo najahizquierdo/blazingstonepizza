@@ -8,16 +8,9 @@ import instagram from './instagram.png'
 
 
 class Sidebar extends Component {
-  componentWillMount () {
-       const script = document.createElement("script");
-       script.src = "https://www.yelp.com/embed/widgets.js";
-       script.async = true;
-
-       document.body.appendChild(script);
-   }
   render() {
     return(
-       <div className="card-panel grey lighten-1">
+       <div className="card-panel grey lighten-2">
 
            <center>
             <img src={logo} className="logo"/><p>

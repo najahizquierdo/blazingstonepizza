@@ -17,7 +17,7 @@ class Homepage extends Component {
   draggable: true,
   swipeToSlide: true,
   speed: 1000,
-  overflow: false,
+  overflow: true,
   adaptiveHeight: true,
   slidesToShow: 1
 };
@@ -26,9 +26,6 @@ class Homepage extends Component {
         <div className="desktop-homepage hidden-xs">
         <Slider {...settings}>
         <div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTrNcOf6Iwhk6uKgVGV-Y8VFnTr8xXbai5hqiajqKUTSwG3g/viewform?usp=sf_link"><img src={krav} className="pictures"/></a></div>
-        <div>
-          <iframe className="pictures" src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-          </iframe></div>
         <div><img src={porkys} className="pictures"/></div>
         <div><img src={lasagna} className="pictures"/></div>
         <div><img src={car} className="pictures"/></div>
