@@ -12,20 +12,17 @@ class Homepage extends Component {
   render() {
     var settings = {
   dots: true,
-
   arrows: true,
   draggable: true,
   swipeToSlide: true,
   speed: 1000,
   overflow: true,
-  adaptiveHeight: true,
   slidesToShow: 1
 };
     return(
       <div className="page jumbotron">
         <div className="desktop-homepage hidden-xs">
         <Slider {...settings}>
-        <div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTrNcOf6Iwhk6uKgVGV-Y8VFnTr8xXbai5hqiajqKUTSwG3g/viewform?usp=sf_link"><img src={krav} className="pictures"/></a></div>
         <div><img src={porkys} className="pictures"/></div>
         <div><img src={lasagna} className="pictures"/></div>
         <div><img src={car} className="pictures"/></div>
@@ -34,7 +31,6 @@ class Homepage extends Component {
     </div>
 
           <div className="mobile-homepage visible-xs">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTrNcOf6Iwhk6uKgVGV-Y8VFnTr8xXbai5hqiajqKUTSwG3g/viewform?usp=sf_link"><img src={krav} className="main-announcement"/></a>
             <img src={porkys} className="main-announcement"/>
             <iframe className="mobile-video" src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe>
