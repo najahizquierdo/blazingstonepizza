@@ -22,6 +22,8 @@ class Homepage extends Component {
     return(
       <div className="page jumbotron">
         <div className="desktop-homepage hidden-xs">
+      <h2> MARCH 21, 2018 </h2>
+      <h4> area power outage, we will be closed for the remainder of the day! </h4>
         <Slider {...settings}>
         <div><img src={porkys} className="pictures"/></div>
         <div><img src={lasagna} className="pictures"/></div>
@@ -31,6 +33,8 @@ class Homepage extends Component {
     </div>
 
           <div className="mobile-homepage visible-xs">
+      <h2> MARCH 21, 2018 </h2>
+      <h4> area power outage, we will be closed for the remainder of the day </h4>
             <img src={porkys} className="main-announcement"/>
             <iframe className="mobile-video" src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe>
