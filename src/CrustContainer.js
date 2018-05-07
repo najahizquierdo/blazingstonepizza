@@ -19,12 +19,11 @@ export default class CrustContainer extends Component {
     return (
       <div className="page_container">
         <div id="player" style={{marginBottom: '1%', marginLeft: '1%'}} className={this.state.display_class}>
-          <iframe
-            src="https://www.youtube.com/embed/NWZcdeAjyw4?rel=0&amp;showinfo=0"
-            frameborder="0"
-            className="menu-video"
-            allow="autoplay; encrypted-media"
-            allowfullscreen></iframe>
+        <iframe className="player"
+        src="https://www.youtube.com/embed/wqceiID2Ctw"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
         </div>
         <img onClick={this.hide.bind(this)} className="crust-button" src={button}/>
       </div>

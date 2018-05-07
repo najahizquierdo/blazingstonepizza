@@ -15,6 +15,11 @@
 
 }
 
+
+.player {
+  margin-left: 50%;
+  position: fixed;
+}
 h2.side-title {
     background-color: red;
     color: #FFF;
@@ -109,14 +114,13 @@ h2.side-title {
   }
 }
 .crust-button {
-  position: fixed;
-  margin-top: 1%;
-  margin-left: 28%;
-  float: right;
+  position: absolute;
+  right:0;
+  margin-top: 5%;
 }
 
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
 .crust-button{
   position: fixed;
   margin-top: 1%;
