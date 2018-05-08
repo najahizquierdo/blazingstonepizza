@@ -27,7 +27,7 @@ class Homepage extends Component {
 
         <div>
         <iframe className="video"
-        src="https://www.youtube.com/embed/XMEkBPRWYtM"
+        src="https://www.youtube.com/embed/mExBrLPimsA"
         frameborder="0"
         allow="autoplay; encrypted-media"
          allowfullscreen>
@@ -40,7 +40,7 @@ class Homepage extends Component {
 
           <div className="mobile-homepage visible-xs">
             <img src={porkys} className="main-announcement"/>
-            <iframe className="mobile-video" src="https://www.youtube.com/embed/XMEkBPRWYtM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            <iframe className="mobile-video" src="https://www.youtube.com/embed/mExBrLPimsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe>
             <img src={lasagna} className="bottomthree"/>
             <img src={car} className="bottomthree"/>
