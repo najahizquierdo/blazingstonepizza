@@ -74,8 +74,9 @@ h2.side-title {
 }
 
 .video {
-  height: 500px;
-  width: 800px;
+  margin-top: 2%;
+  height: 600px;
+  width: 900px;
 }
 
 .mobile-video {

@@ -10,7 +10,7 @@ import instagram from './instagram.png'
 class Sidebar extends Component {
   render() {
     return(
-       <div className="card-panel grey lighten-2">
+       <div className="card-panel grey lighten-1">
 
            <center>
             <img src={logo} className="logo"/><p>
