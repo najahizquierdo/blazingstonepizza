@@ -20,7 +20,7 @@ export default class NavBar extends Component {
           <a id="faq-item" className="nav-item" href="/faq">
           FAQ
           </a>
-          <a className="nav-item" href="https://blazingstonepizza.revelup.com/weborder/?establishment=1#about">
+          <a className="nav-item" href="https://www.toasttab.com/blazing-stone-pizza/v2/online-order">
               ORDER
           </a>
     </Navbar>
